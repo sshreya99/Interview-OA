@@ -1,5 +1,5 @@
-#https://leetcode.com/discuss/interview-question/6044882/amazon-online-assessment-question-2024-november/2722584
-
+# https://leetcode.com/discuss/interview-question/6044882/amazon-online-assessment-question-2024-november/2722584
+# tc: O(n(log(n))) sc: O(n)
 def min_total_effort(effort):
     # Sort the array
     effort.sort()
