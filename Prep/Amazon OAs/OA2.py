@@ -5,7 +5,7 @@
 # Input String: hackerrank
 # Expected output: 3
 
-# Explaination: hack er rank
+# Explaination: hacker rank
 # Solution:
 # Simply iterated and calculated vowels and consonants in variables. In case both variables were greater than 1, inreased cnt by 1 and reset the vowel and consonant count to 0.
 # This was a simple O(n) solution with all test cases passed.

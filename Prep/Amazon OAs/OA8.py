@@ -1,11 +1,11 @@
 #performance
 #not sure
-int getMaximumPartitions(const vector<int>& performance) {
-    int ans = 0, x = -1;
-    for (const auto v : performance)
-        (x &= v) || (ans -= --x);
-    return max(ans, 1);
-}
+# int getMaximumPartitions(const vector<int>& performance) {
+#     int ans = 0, x = -1;
+#     for (const auto v : performance)
+#         (x &= v) || (ans -= --x);
+#     return max(ans, 1);
+# }
  
 # probably this works
 # TC: O(n) SC: O(1)
